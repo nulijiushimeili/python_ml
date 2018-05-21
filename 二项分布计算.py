@@ -2,6 +2,7 @@
 
 
 # 这是一个阶乘方法
+# 1 & 0 的阶乘都是1
 def factorial(num):
     if num >= 0:
         if num == 0 or num == 1:
@@ -10,10 +11,6 @@ def factorial(num):
     else:
         print("你输入的参数不合法")
 
-
-# print(factorial(4))
-
-# def get_time(time):
 
 # 计算二项分布概率的方法
 # time--进行试验的次数
